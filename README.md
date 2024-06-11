@@ -8,4 +8,4 @@ writing daily updates here...
 
 ### Syllabus:
 
-- [ ] Week 0 Scratch
+- [ ] Week 0 Scratch: [Week 0](week_0/NOTES.md)
