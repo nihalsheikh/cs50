@@ -4,6 +4,8 @@ Completing the CS50 course as a part of my [focused.training](https://github.com
 
 writing daily updates here...
 
-Syllabus:
+---
+
+### Syllabus:
 
 - [ ] Week 0 Scratch
