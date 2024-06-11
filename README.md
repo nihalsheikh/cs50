@@ -1,4 +1,4 @@
-# CS50
+# CS50 2024
 
 Completing the CS50 course as a part of my [focused.training](https://github.com/nihalsheikh/focused.training) to become a better developer!
 
