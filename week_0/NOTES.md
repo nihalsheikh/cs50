@@ -2,3 +2,5 @@
 starting the cs50 course to become better developer
 
 ## Notes
+
+- [x] Unary
