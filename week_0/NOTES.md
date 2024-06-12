@@ -6,3 +6,4 @@ starting the cs50 course to become better developer
 - [x] Unary
 - [x] Binary
 - [x] ASCII
+- [x] Unicode
