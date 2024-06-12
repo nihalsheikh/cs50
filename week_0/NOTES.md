@@ -7,3 +7,4 @@ starting the cs50 course to become better developer
 - [x] Binary
 - [x] ASCII
 - [x] Unicode
+- [x] Algorithm 
