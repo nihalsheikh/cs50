@@ -41,3 +41,53 @@ bool: true or false values
 char: exactly one character
 float: decimal numbers
 long: big numbers with decimal
+
+#### Loops
+
+- [x] While loop
+- [x] For loop
+
+**While Loop**
+
+Syntax:
+```
+    while (condition) {
+        function;
+        update;
+    }
+```
+
+Example:
+```
+    #include <stdio.h>
+
+    int main(void) {
+        int i = 0;
+        while (i < 3) {
+            printf("meow\n");
+            i++;
+        }
+    }
+```
+
+**For Loop**
+
+Syntax:
+```
+    for (initialization; expression; update) {
+        function
+    }
+```
+
+Example:
+```
+    #include <stdio.h>
+
+    int main(void) {
+        int i = 0;
+
+        for (i = 0; i < 3; i++) {
+            printf("woof\n");
+        }
+    }
+```
