@@ -92,9 +92,44 @@ Example:
     }
 ```
 
-### Important:
+### Important Note:
 - C lang taken everything literally, The C compiler reads from Top to Down, and will execute the Main Function first.
 
 - It is imp to remember this because if you define another function below main, it may throw an error, as it may not find it in the file.
 
 - To avoid this situation, we make that another function above the Main function, so it knows, that another function exists in the code.
+
+### Mulitiple Functions in Code
+
+Example:
+```
+    #include <stdio.h>
+    #include <cs50.h>
+
+    int add(int a, int b);
+
+    int main(void) {
+        int x = get_int("x: ");
+        int y = get_int("y: ");
+
+        int z = add(x, y);
+        printf("%i \n", z);
+    }
+
+    int add (int a, int b) {
+        return a + b;
+    }
+```
+
+- From the above example we can see that, there are 2 functions, namely: **Main** Function and **Add** Function
+- Read the Important Note above...
+- From the second function:
+    ```
+        int add (int a, int b) {
+        return a + b;
+        }
+    ```
+
+    - here imp thing to note is that the function is of type `int`, which means that this function will **`return`** an Integer value
+    - `(int a, int b)` are the **`arguements/parameters`** provided to the **Add** Function.
+    - If instead of `int` it was `void`, then the add function would not return anything
