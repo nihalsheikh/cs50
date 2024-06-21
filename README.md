@@ -10,4 +10,5 @@ writing daily updates here...
 
 ### Syllabus:
 
-- [ ] Week 0 Scratch: [Week 0](week_0/NOTES.md)
+- [x] Week 0 Scratch: [Week 0](week_0/NOTES.md)
+- [ ] Week 1 C Progamming: [Week 1](week_1/NOTES.md)
