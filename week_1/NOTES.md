@@ -126,6 +126,88 @@ following data types are created by CS50, so use `<cs50.h>` header file while co
 
 
 #### Operators
+
+**Arithmetic Operators**
+    - **`+`:** Addition
+    - **`-`:** Subtraction
+    - **`*`:** Multiplication
+    - **`/`:** Division
+    - **`%`:** Modulus: for storing the remainder value after division.
+
+- Example: usage of basic arithmetic operators
+    ```
+        int x = y + 1;
+        x = x * 5;
+    ```
+
+- Example of Modulus operator
+    ```
+        int m = 13 % 4;
+        // after executing the above line, m becomes 1, how?? 13/4 gives remainder 1
+    ```
+
+- Few shortcuts of using the Arithmetic operators:
+    - Addition:
+        - `x = x + 1;` can be written as `x++;` or `x += 1;`
+        - `x = x - 1;` can be written as `x--;` or `x -= 1;`
+        - `x = x * 5;` can be written as `x *= 5;`
+        - `x = x / 5;` can be written as `x /= 5;`
+
+
+**Boolean Operators**
+- Used for comparing values
+- Has only two possible values: `true` or `false`
+- used in conditional statements, like if something is true do this, or if it is false do that.
+- When working with Booleans expressions, we use variable of type bool
+- In C, every non-zero value is **`true`**, and zero is **`false`**
+- Types of Boolean expression:
+    - Logical Operators.
+    - Relational Operators. 
+
+    **Logical Operators**
+    - **`Logical AND (&&)`:**
+        - It is **true** if and only if **both operands are true**, otherwise false
+
+        | x | y | (x && y) |
+        | --- | --- | --- |
+        | true | true | **true** |
+        | true | false | false |
+        | false | true | false |
+        | false | false | false | <br>
+
+    -  **`Logical OR (||)`:**
+        - It is **true** if and only if **at least one operand is true**, otherwise false
+
+        | x | y | (x && y) |
+        | --- | --- | --- |
+        | true | true | **true** |
+        | true | false | **true** |
+        | false | true | **true** |
+        | false | false | false | <br>
+
+    - **`Logical NOT (!)`:**
+        - It **inverts** the value of its operand
+        - the symbol `!` can be called as `bang`, `not` or `exclamation`
+
+        | x | !x |
+        | -- | -- |
+        | true | false |
+        | false | true | <br>
+
+
+    **Relational Operators**
+        - **`Less than (<)`:**  
+            -> usage: (x < y); <br>
+        - **`Less than or equal to (<=)`:**
+            -> usage: (x <= y)<br>
+        - **`Greater than (>)`:**
+            -> usage: (x > y)<br>
+        - **`Greater than or equal to (>=)`:**
+            -> usage: (x >= y)<br>
+        **Testing for Equality**
+        - **`Equality: (x == y)`**
+        - **`Inequality: (x != y)`**
+
 #### Conditional Statements
 #### Command Line
 #### Magic Numbers
