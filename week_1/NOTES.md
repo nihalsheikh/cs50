@@ -23,7 +23,7 @@
     - Header Files are pre-determined functions, that gets executed when called, like in the earlier example, `<stdio.h>` is for `Standard Input and Output`, it taken a pre-determined input in `printf function` and then prints it out in the terminal when executing the file.
     - As you can see, from example, **`Hello World`** is printed in the terminal.
 
-#### Data Types
+#### Data Types and Variables
 
 Multiple data types used in the C programming.
 Data Types table:
@@ -88,7 +88,7 @@ following data types are created by CS50, so use `<cs50.h>` header file while co
 **`typedefs`:**
     - defined data types
 
-#### Variables
+**Variables**
 
 - To declare a vairable you need only 2 things:
     - type
@@ -109,14 +109,30 @@ following data types are created by CS50, so use `<cs50.h>` header file while co
 
 - Using variables:
     - Declare the variables, then use it wherever you want.
-        - for example:
+        - for example: way1
         ```
             int number;     // declaration
             number = 17;    // assignment
+
+            char letter;    // declaration
+            letter = 'a';   // assignment
         ```
 
-#### Loops
+        - for example: way2
+        ```
+            int number = 12;       // initialization
+            char letter = 'N';  // initialization
+        ```
 
+
+#### Operators
+#### Conditional Statements
+#### Command Line
+#### Magic Numbers
+
+
+
+#### Loops
 - [x] While loop
 - [x] For loop
 
