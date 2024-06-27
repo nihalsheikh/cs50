@@ -11,4 +11,14 @@ writing daily updates here...
 ### Syllabus:
 
 - [x] Week 0 Scratch: [Week 0](week_0/NOTES.md)
-- [ ] Week 1 C Progamming: [Week 1](week_1/NOTES.md)
+    - [x] Topics Covered:
+        - [x] Binary
+        - [x] ASCII
+        - [x] Unicode
+        - [x] Algorithm
+        - [x] Pseudocode
+
+    - [x] Problem Set 0
+        - [x] Scratch Game
+
+- [x] Week 1 C Progamming: [Week 1](week_1/NOTES.md)
