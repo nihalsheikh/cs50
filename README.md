@@ -41,3 +41,8 @@ writing daily updates here...
         - [x] Truncation
         - [x] Type Casting
 
+    - [x] Problem Set 1
+        - [x] Hello, World
+        - [x] Hello, `<Your Name>`
+        - [x] Mario Less
+        - [ ] Cash
