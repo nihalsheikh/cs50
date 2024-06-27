@@ -22,3 +22,22 @@ writing daily updates here...
         - [x] Scratch Game
 
 - [x] Week 1 C Progamming: [Week 1](week_1/NOTES.md)
+    - [x] Topics Covered:
+        - [x] Machine Code
+        - [x] Code Editor: VS Code
+        - [x] C Program: "Hello, World!"
+        - [x] Format Codes
+        - [x] Format Codes
+        - [x] Data Types
+        - [x] Operators
+        - [x] Conditional Statements
+        - [x] Variables
+        - [x] Loops
+        - [x] Functions
+        - [x] Scope
+        - [x] Function Composition
+        - [x] Linux: Command Line
+        - [x] Integer Overflow
+        - [x] Truncation
+        - [x] Type Casting
+
