@@ -88,6 +88,15 @@ following data types are created by CS50, so use `<cs50.h>` header file while co
 **`typedefs`:**
     - defined data types
 
+**Types and Format codes**
+
+| Types | Format Codes |
+| --- | --- |
+| int | %i |
+| float | %f |
+| char | %c |
+| string | %s |
+
 **Variables**
 
 - To declare a vairable you need only 2 things:
@@ -464,3 +473,7 @@ Example:
     - here imp thing to note is that the function is of type `int`, which means that this function will **`return`** an Integer value
     - `(int a, int b)` are the **`arguements/parameters`** provided to the **Add** Function.
     - If instead of `int` it was `void`, then the add function would not return anything
+
+### Section
+- [x] Variables and Datatypes
+- [x] 
