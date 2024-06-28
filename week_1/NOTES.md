@@ -420,8 +420,7 @@ following data types are created by CS50, so use `<cs50.h>` header file while co
 - `for`:
     - use when you want to loop to repeat a discrete number of times while you may not know the number at the moment the program is compiled.
 
-#### Command Line
-#### Magic Numbers
+
 
 
 ### Important Note:
