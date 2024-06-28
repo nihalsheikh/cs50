@@ -333,59 +333,96 @@ following data types are created by CS50, so use `<cs50.h>` header file while co
             when the condition of expression is true, then execute the true thing, or execute the false, in this case when the boolean condition is satisfied or it is true x becomes 5 else it will be 6
 
 
-#### Command Line
-#### Magic Numbers
-
-
-
 #### Loops
 - [x] While loop
 - [x] For loop
 
-**While Loop**
-
-Syntax:
-```
-    while (condition) {
-        function;
-        update;
-    }
-```
-
-Example:
-```
-    #include <stdio.h>
-
-    int main(void) {
-        int i = 0;
-        while (i < 3) {
-            printf("meow\n");
-            i++;
+**`while true`**
+    ```
+        while (true)
+        {
+            // code
         }
-    }
-```
+    ```
+    - This is called an infinite loop.
+    - The lines between the curly braces will be executed repeatedly from top-to-bottom until and unless we break out of it.
 
-**For Loop**
-
-Syntax:
-```
-    for (initialization; expression; update) {
-        function
-    }
-```
-
-Example:
-```
-    #include <stdio.h>
-
-    int main(void) {
-        int i = 0;
-
-        for (i = 0; i < 3; i++) {
-            printf("woof\n");
+**`while Loop`**
+- Syntax:
+    ```
+        while (boolean expression) {
+            function;
+            update;
         }
-    }
-```
+    ```
+
+- Example:
+    ```
+        #include <stdio.h>
+
+        int main(void) {
+            int i = 0;
+            while (i < 3) {
+                printf("meow\n");
+                i++;
+            }
+        }
+    ```
+    - when the expression is true, the code wil be executed repeatedly until the expression becomes false.
+    - in while loop the true condition will be executed repeatedly till it becomes false.
+
+**`do while`**
+    ```
+        do
+        {
+            // code
+        }
+        while (boolean expession);
+    ```
+    - This code will be executed once, and then it will check the boolean expression
+    - If the boolean expression is true, it will repeat the process till it becomes false
+    - Guranteed to run atleast one time.
+
+**`for Loop`**
+- Syntax:
+    ```
+        for (initialization; bool-expression; update) {
+            function
+        }
+    ```
+
+- Example:
+    ```
+        #include <stdio.h>
+
+        int main(void) {
+            int i = 0;
+
+            for (i = 0; i < 3; i++) {
+                printf("woof\n");
+            }
+        }
+    ```
+    - In the above example:
+        - `int i` is the counter variable
+        - The boolean codition is checked:
+            - if it is **true**: the body is executed
+            - if it is **false**: the body does not execute
+        - The **counter variable** `i++` is incremented and then the Boolean expression is checked again.
+
+**Use Cases for loop**
+- `while`:
+    - use when you want to loop to repeat for an unknown number of times and possibly not at all.
+
+- `do while`:
+    - use when you want to loop to for repeat an unknown number of times but at least for once
+
+- `for`:
+    - use when you want to loop to repeat a discrete number of times while you may not know the number at the moment the program is compiled.
+
+#### Command Line
+#### Magic Numbers
+
 
 ### Important Note:
 - C lang taken everything literally, The C compiler reads from Top to Down, and will execute the Main Function first.
