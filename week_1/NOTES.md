@@ -209,6 +209,130 @@ following data types are created by CS50, so use `<cs50.h>` header file while co
         - **`Inequality: (x != y)`**
 
 #### Conditional Statements
+
+**Conditionals**
+- Conditional expression allow your programs to make decisions and take different forks in the road, depending on the values of variables or user input.
+
+- C has different ways to express the conditional expressions, which we will call as Conditional branch.
+
+- Conditional Expressions Syntax :
+    1. **`if`**
+        ```
+            if (boolean expression) 
+            {
+                // code
+            }
+        ```
+        - when the boolean expression is **true**, the code will be executed in order of top-to-bottom
+        - when the boolean-expression is **false**, the code will not be executed
+    
+    2. **`if else`**
+        ```
+            if (boolean expression) 
+            {
+                // code
+            }
+            else
+            {
+                // code
+            }
+        ```
+        - when the boolean expression is **true**, the code in the `if block` will be executed in order of top-to-bottom.
+        - when the boolean-expression is **false**, the code in the `else block` will be executed in order of top-to-bottom.
+    
+    3. **`else if`**
+        ```
+            if (boolean expression) 
+            {
+                // code branch: 1
+            }
+            else if (boolean expression 2)
+            {
+                // code branch: 2
+            }
+            else if (boolean expression 3)
+            {
+                // code branch: 3
+            }
+            else
+            {
+                // code branch: 4
+            }
+        ```
+        - when the boolean expression is **true or satisfies the condition**, then code in the `if block` will be executed in order of top-to-bottom.
+        - when the boolean-expression in if block is not satisfied, it is checked in the else if block, if it satisfies the condtion, then code in the `else if block` will be executed in order of top-to-bottom.
+        - when the condition of both if and else if block are not satisfied, then code in the else block is executed.
+
+    4. **`if if if else`**
+        ```
+            if (boolean-expresion 1)
+            {
+                // code branch: 1
+            }
+            if (boolean-expresion 2)
+            {
+                // code branch: 2
+            }
+            if (boolean-expresion 3)
+            {
+                // code branch: 3
+            }
+            else
+            {
+                // code branch: 4
+            }
+        ```
+        - it is possible to create a chain of non-mutually exclusive branches.
+        - 1st and 2nd branches are non-multually exclusive
+        - Only 3rd and 4th branches are mutually exclusive.
+        - The **else binds to the nearest if** only.
+
+    5. **`Switch Case`**
+        ```
+            int x = get_int();  // get_int is provided by the special <cs50.h> file
+            switch(x)
+            {
+                case 1:
+                    printf("One!\n");
+                    break;
+                case 2:
+                    printf("Two!\n");
+                    break;
+                case 3:
+                    printf("Three!\n");
+                    break;
+                default:
+                    printf("No Number!\n");
+            }
+        ```
+        - `switch()` statement is a conditional statement that permits enumeration of discrete cases, instead of relying on Boolean Expresions.
+        - it is imp to `break;` between each case, or you will "fal through" each case (unless that is desired behaviour) 
+
+    6. **`? :`** or **`Ternary Operator`**
+        ```
+            // main ? : syntax
+            int x = (expression) ? 5 : 6;
+
+            // Alternate version of the above code
+            int x;
+            if (expression)
+            {
+                x = 5;
+            }
+            else
+            {
+                x = 6;
+            }
+        ```
+        - understanding the above line:
+            int x = (expression) ? `<for true>` : `<for false>`
+
+            - Example:
+                `int x = (expression) ? 5 : 6;`
+
+            when the condition of expression is true, then execute the true thing, or execute the false, in this case when the boolean condition is satisfied or it is true x becomes 5 else it will be 6
+
+
 #### Command Line
 #### Magic Numbers
 
