@@ -47,4 +47,4 @@ writing daily updates here...
         - [x] Mario Less
         - [x] Cash
 
-- [x] Week 2 Arrays: [Week 0](week_2/NOTES.md)
+- [x] Week 2 Arrays: [Week 2](week_2/NOTES.md)
