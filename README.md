@@ -45,4 +45,4 @@ writing daily updates here...
         - [x] Hello, World
         - [x] Hello, `<Your Name>`
         - [x] Mario Less
-        - [ ] Cash
+        - [x] Cash
