@@ -61,3 +61,8 @@ writing daily updates here...
         - [x] Exit Status
         - [x] Cryptography
             - [x] Caesar Cipher
+
+    - [x] Problem Set 2
+        - [ ] Scrabble
+        - [ ] Readability
+        - [ ] Caesae Cipher
