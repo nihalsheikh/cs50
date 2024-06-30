@@ -48,3 +48,16 @@ writing daily updates here...
         - [x] Cash
 
 - [x] Week 2 Arrays: [Week 2](week_2/NOTES.md)
+    - [x] Topics Covered:
+        - [x] Compiler
+        - [x] Debugging
+        - [x] Memory
+        - [x] Arrays
+        - [x] String
+            - [x] String Length
+            - [x] Uppercase
+            - [x] Lowercase
+        - [x] Command Line Arguements
+        - [x] Exit Status
+        - [x] Cryptography
+            - [x] Caesar Cipher
