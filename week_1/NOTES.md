@@ -476,4 +476,5 @@ Example:
 
 ### Section
 - [x] Variables and Datatypes
-- [x] 
+- [x] Loops
+- [x] Problem Set 1
