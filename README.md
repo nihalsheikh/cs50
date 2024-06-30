@@ -46,3 +46,5 @@ writing daily updates here...
         - [x] Hello, `<Your Name>`
         - [x] Mario Less
         - [x] Cash
+
+- [x] Week 2 Arrays: [Week 0](week_2/NOTES.md)
