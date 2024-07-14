@@ -136,12 +136,12 @@ following data types are created by CS50, so use `<cs50.h>` header file while co
 
 #### Operators
 
-**Arithmetic Operators**
-    - **`+`:** Addition
-    - **`-`:** Subtraction
-    - **`*`:** Multiplication
-    - **`/`:** Division
-    - **`%`:** Modulus: for storing the remainder value after division.
+**Arithmetic Operators** <br>
+    **`+`:** Addition <br>
+    **`-`:** Subtraction <br>
+    **`*`:** Multiplication <br>
+    **`/`:** Division <br>
+    **`%`:** Modulus: for storing the remainder value after division. <br>
 
 - Example: usage of basic arithmetic operators
     ```
@@ -204,18 +204,20 @@ following data types are created by CS50, so use `<cs50.h>` header file while co
         | false | true | <br>
 
 
-    **Relational Operators**
-        - **`Less than (<)`:**  
-            -> usage: (x < y); <br>
-        - **`Less than or equal to (<=)`:**
-            -> usage: (x <= y)<br>
-        - **`Greater than (>)`:**
-            -> usage: (x > y)<br>
-        - **`Greater than or equal to (>=)`:**
-            -> usage: (x >= y)<br>
-        **Testing for Equality**
-        - **`Equality: (x == y)`**
-        - **`Inequality: (x != y)`**
+    **Relational Operators** <br>
+
+  - **`Less than (<)`:**  <br>
+      - usage: (x < y); <br>
+  - **`Less than or equal to (<=)`:** <br>
+      - usage: (x <= y) <br>
+  - **`Greater than (>)`:**
+      - usage: (x > y) <br>
+  - **`Greater than or equal to (>=)`:**
+      - usage: (x >= y) <br>
+
+  **Testing for Equality** <br>
+          - **Equality:** `(x == y)` <br>
+          - **Inequality:** `(x != y)` <br>
 
 #### Conditional Statements
 
